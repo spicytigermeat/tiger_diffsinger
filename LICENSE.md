@@ -26,4 +26,4 @@ SOFTWARE.
 
 The "TIGER" DiffSinger Models software is subject to the terms of the MIT License, as described above. However, the following additional restriction applies:
 
-The software and its derivatives may not be used, in whole or in part, for commercial purposes without the express written permission of Tyler Koziol aka "tigermeat"/"neutrogic".
+The software and its derivatives may not be used, in whole or in part, for commercial purposes without the express written permission from the copyright holder and/or purchase of a commercial usage license.
