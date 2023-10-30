@@ -6,7 +6,11 @@
 /_/ /___/\____/_____/_/ |_|  /_____/_/_/ /_/  /____/_/_/ /_/\__, /\___/_/  (_|_|_)   
                                                            /____/                        
 ```
-✨ Welcome to the official repository of DiffSinger Voice Library "TIGER"! ✨
+<p align="center">
+✨ Welcome to the official repository of DiffSinger Voice Library "TIGER"! ✨<br><br>
+  <img src="src/ico1.png" width="125" title="(✧ω✧)">
+</p>
+
 ***
 Tiger is a singer utilizing the DiffSinger engine on OpenUTAU! Tiger can sing in English, and has support for other languages like Spanish, Japanese and can even synthesize convincing PT-BR and probably more! You will be able to find all of the information you need to install and use Tiger on this page.
 
