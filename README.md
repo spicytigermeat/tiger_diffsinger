@@ -13,4 +13,15 @@ Tiger is a singer utilizing the DiffSinger engine on OpenUTAU! Tiger can sing in
 Please read and ensure you agree to the terms outlined in this [LICENSE](LICENSE.md) before downloading and generating audio with Tiger.
 ***
 For more information on utilizing Tiger's database in OpenUTAU, please refer to the [wiki](link) page on this repo.
+***
+### Downloads
+
+| 🐯 | ✨ |
+| :---: | :---: |
+| DiffSinger Model for OpenUTAU | [link](link) |
+| "fish_hifigan" Vocoder | [link](link) |
+
+***
+### Quick License Overview
+Tiger's DiffSinger models (Acoustic/Variance/Duration/Pitch) are licensed together as a package under a __ license with a Common Clause for Commercial Usage. Any general, non-commercial or personal usage of Tiger's DS models can be used free of charge so long as the character usage TOS is followed, but the purchase of a license is required if the desire to use Tiger's model for profit is desired. Please ensure you've fully read through the license before using Tiger!
 
