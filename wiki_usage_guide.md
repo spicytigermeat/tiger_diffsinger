@@ -2,18 +2,26 @@
 Thanks for taking the time to read Tiger's usage guide! Below you will find some information to assist in using Tiger's DiffSinger models.
 
 ## 🌈 Installation 🌈
-To install Tiger, simply drag and drop the ```TigerDS_b01.zip``` file into OpenUTAU. Accept the window that opens up. Then, ensure the hifi-gan vocoder released by [fish-diffusion](https://github.com/fishaudio/fish-diffusion/releases/tag/v2.0.0) is installed.
-To install this, download ```fish-hifigan.oudep``` from this repo. and drag that file into OpenUTAU and accept the prompt. You are now ready to use Tiger!
+To install Tiger, simply drag and drop the `TigerDS_b01.zip` file into OpenUTAU. Accept the window that opens up. Then, ensure the hifi-gan vocoder released by [fish-diffusion](https://github.com/fishaudio/fish-diffusion/releases/tag/v2.0.0) is installed.
+To install this, download `fish-hifigan.oudep` from this repo. and drag that file into OpenUTAU and accept the prompt. You are now ready to use Tiger!
 
 ## 🎵 OpenUTAU Usage 🎵
-This voicebank is meant to be used in ```OpenUTAU```, and should be propely configured upon using for the first time. However, there are a few different options to choose from to change the way you use Tiger!
+This voicebank is meant to be used in `OpenUTAU`, and should be propely configured upon using for the first time. However, there are a few different options to choose from to change the way you use Tiger!
 ### 🔤 Supported Phonemizers 🔤
-By default, Tiger will produce the best results with the ```DIFFS EN X``` phonemizer, which is a phonemizer I contributed to OPU that utilizes the ```[ax]``` and ```[dx]``` phonemes for more accurate American English. This phonemizer reads from ```dsdict-enx.yaml``` in the main folder, as well as in ```dsdur``` and ```dspitch```.
-To overwrite the lyrics typed in each note, you can add ```[]``` after the lyrics and include phonemes between the brackets. For example: ```cut[k ax t]```.<br><br>
-If you would like to do **phonetic only input** (bypass the ```[]``` requirement), you can use the basic ```DIFFS``` phonemizer. An added bonus to this mode is the ability to read a phoneme table for Japanese Hiragana from ```dsdict.yaml```.<br><br>
-The ```DIFFS EN``` phonemizer is supported, but not by Tiger officially, and will simply use the estimated output from the ```ArpabetG2p```. (Not Recommended)<br>
+#### DIFFS EN X
+By default, Tiger will produce the best results with the `DIFFS EN X` phonemizer, which is a phonemizer I contributed to OpenUTAU that utilizes the `[ax]` and `[dx]` phonemes for more accurate American English. This phonemizer reads from `dsdict-enx.yaml` in the main folder, as well as in `dsdur` and `dspitch`.
+To overwrite the lyrics typed in each note, you can add `[]` after the lyrics and include phonemes between the brackets. For example: `cut[k ax t]`.
+#### DIFFS
+If you would like to do **phonetic only input** (bypass the `[]` requirement), you can use the basic `DIFFS` phonemizer. An added bonus to this mode is the ability to read a phoneme table for Japanese Hiragana from `dsdict.yaml`.
+#### DIFFS EN
+The `DIFFS EN` phonemizer is supported, but not by Tiger officially, and will simply use the estimated output from the `ArpabetG2p`. (Not Recommended)<br>
 ### 📢 Custom Vocoder 📢
-Tiger works better with the hifi-gan vocoder released by [fish-diffusion](https://github.com/fishaudio/fish-diffusion/releases/tag/v2.0.0), however if you prefer the sound of the standard ```nsf-hifigan``` vocoder, you can change the line in ```dsconfig.yaml``` starting with vocoder to: ```vocoder: nsf-hifigan```
+Tiger works better with the hifi-gan vocoder released by [fish-diffusion](https://github.com/fishaudio/fish-diffusion/releases/tag/v2.0.0), however if you prefer the sound of the standard ```nsf-hifigan``` vocoder, you can change the line in `dsconfig.yaml` starting with vocoder to: `vocoder: nsf-hifigan`
+### 📝 Optimizing OpenUTAU 📝
+By default, OpenUTAU will configure your preferences to render DiffSinger voices on CPU, but I recommend switching to GPU rendering to optimize speed and make using OpenUTAU a more enjoyable experience. To do so, in the preferences menu change the following:
+```yaml
+put stuff here when you get home
+```
 ### 🖌️ Voice Modes 🖌️
 Tiger can use 5 different voice modes currently, here's a quick rundown of each. [This page](link) has more information on each voice mode.<br>
 
@@ -27,6 +35,8 @@ Tiger can use 5 different voice modes currently, here's a quick rundown of each.
 
 ### ❓ Any issues? ❓
 If you run into any issues using Tiger, reach out to me here via the [issues](https://github.com/spicytigermeat/tiger_diffsinger/issues) tab, or by other means such as twitter or discord.
+
+## 💹 More Information 💹
 
 <details>
 <summary>🗣️ Phonetic Information 🗣️</summary>
@@ -57,7 +67,7 @@ If you run into any issues using Tiger, reach out to me here via the [issues](ht
   | | | t | tip [***t*** ih p] |
   | | | th | thigh [***th*** ay] |
   | | | v | vibe [***v*** ay b] |
-  | | | w | what [***w** ah t] |
+  | | | w | what [***w*** ah t] |
   | | | y | yes [***y*** eh s] |
   | | | z | zoo [***z*** uw] |
   | | | zh | asia [ey ***zh*** ah] |
@@ -91,10 +101,13 @@ If you run into any issues using Tiger, reach out to me here via the [issues](ht
   | oo | vowel | o | Closed 'o', like in Spanish and Japanese |
   | uu | vowel | u | Closed 'u', like in Spanish and PT-BR |
   | ux | vowel | M | Japanese 'u' |
+  | nn | vowel* | N\ | Japanese 'ん' | 
   | hx | cons. | x | Spanish 'j', like in 'ojos' [oo hx oo s] |
   | rr | cons. | rr | Rolled R, like in perrito [p ee rr iy tx oo] |
   | rx | cons. | R | Uvular R, like in 'Março' [m aa rx s] |
   | tx | cons. | t | Unaspirated t. For Non-English languages |
+
+  *: While in theory it is not a vowel, to ensure proper functionality it is treated as a vowel by DiffSinger.
    
  </details>
 
