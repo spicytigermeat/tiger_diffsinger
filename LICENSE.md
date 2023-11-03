@@ -4,7 +4,7 @@ Copyright (c) 2023 "tigermeat"/"neutrogic"
 
 Contact: tora@tora-ouji.com
 
-Please view the license agreement [here]([CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1))
+Please view the license agreement [here](https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1)
 
 "TIGER" DiffSinger Models Commons Clause License
 
