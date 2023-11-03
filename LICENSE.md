@@ -8,6 +8,8 @@ Please view the license agreement [here](https://creativecommons.org/licenses/by
 
 "TIGER" DiffSinger Models Commons Clause License
 
-The "TIGER" DiffSinger Models software is subject to the terms of the MIT License, as described above. However, the following additional restriction applies:
+The "TIGER" DiffSinger Models software is subject to the terms of the CC BY-NC-ND 4.0 License, as described above. However, the following additional restriction applies:
 
 The software and its derivatives may not be used, in whole or in part, for commercial purposes without the express written permission from the copyright holder and/or purchase of a commercial usage license.
+
+To aquire a commercial license, please contact the copyright holder at the above email address.
