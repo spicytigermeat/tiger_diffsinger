@@ -30,5 +30,5 @@ For more information on utilizing Tiger's database in OpenUTAU, please refer to 
 Please read and ensure you agree to the terms outlined in this [LICENSE](LICENSE.md) before downloading and generating audio with Tiger.
 ***
 ### Quick License Overview
-Tiger's DiffSinger models (Acoustic/Variance/Duration/Pitch) are licensed together as a package under a __ license with a Common Clause for Commercial Usage. Any general, non-commercial or personal usage of Tiger's DS models can be used free of charge so long as the character usage TOS is followed, but the purchase of a license is required if the desire to use Tiger's model for profit is desired. Please ensure you've fully read through the license before using Tiger!
+Tiger's DiffSinger models (Acoustic/Variance/Duration/Pitch) are licensed together as a package under a CC BY-NC-ND 4.0 & Commons Clause License. Any general, non-commercial or personal usage of Tiger's DS models can be used free of charge so long as the character usage TOS is followed, but the purchase of a license is required if the desire to use Tiger's model for profit is desired. The license also does not permit redistribution or creations of derivatives. Please ensure you've fully read through the license before using Tiger!
 
