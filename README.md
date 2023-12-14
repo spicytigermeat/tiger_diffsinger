@@ -19,8 +19,7 @@ Tiger is a singer utilizing the DiffSinger engine on OpenUTAU! Tiger can sing in
 
 | 🐯 | ✨ |
 | :---: | :---: |
-| DiffSinger Model for OpenUTAU | [link](https://drive.google.com/file/d/1gZC0_fbW6hLHsbSd4xyUL5qOicy7NYk5/view?usp=sharing) |
-| "tgm_hifigan" Custom Vocoder (Currently Required) | [link](https://drive.google.com/file/d/12g7ZGIjnJO-hhUNgydv1s80_LEm-x8tY/view?usp=sharing) |
+| DiffSinger Model for OpenUTAU | [link](https://drive.google.com/file/d/13oXiQcTpqyzaWDZsbgaRUPNou_bp5o6F/view?usp=drive_link) |
 
 ***
 ### Use Guide
